@@ -1,0 +1,22 @@
+{
+  "name": "@power-elements/power-functions",
+  "version": "1.0.0",
+  "description": "A small set of utilities for working in the browser",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennypowers/power-functions.git"
+  },
+  "keywords": [
+    "functions",
+    "functional programming",
+    "javascript",
+    "modules"
+  ],
+  "author": "Benny Powers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennypowers/power-functions/issues"
+  },
+  "homepage": "https://github.com/bennypowers/power-functions#readme"
+}
