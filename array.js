@@ -1,4 +1,5 @@
 export {
+  concat,
   filter,
   find,
   map,

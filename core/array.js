@@ -1,6 +1,10 @@
 import { safeArrayMethod } from './safeArrayMethod.js';
 import { compose } from './compose.js';
 
+/** Point-free array concat. Naive implementation. */
+// concat :: f -> as -> as
+export const concat = safeArrayMethod('concat');
+
 /** Point-free array filter. Naive implementation. */
 // filter :: f -> as -> a
 export const filter = safeArrayMethod('filter');
@@ -18,7 +22,7 @@ export const map = safeArrayMethod('map');
 export const reduce = safeArrayMethod('reduce');
 
 /** Point-free array some. Naive implementation. */
-// some :: f -> as -> as
+// some :: f -> as -> bool
 export const some = safeArrayMethod('some');
 
 /** Point-free array sort. Naive implementation. */
